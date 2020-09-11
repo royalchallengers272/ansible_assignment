@@ -1,0 +1,15 @@
+---
+
+#Adding the CentOS 7 EPEL repository
+ - name: Add epel-release repo
+   yum:
+     name: epel-release
+     state: present
+
+# Install Nginx using yum command
+ - name: Install nginx
+   yum:
+     name: nginx
+     state: present
+
+

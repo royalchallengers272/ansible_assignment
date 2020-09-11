@@ -1,0 +1,17 @@
+---
+
+#Opening the firewall port
+ - name: Enable port
+   firewalld:
+     port: 8080/tcp
+     permanent: yes
+     state: enabled
+
+# reloading the firewall for changes to take effect
+ - name: reload service firewalld
+   service:
+     name: firewalld
+     state: reloaded
+
+
+

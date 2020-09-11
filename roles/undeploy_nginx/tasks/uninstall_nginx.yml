@@ -1,0 +1,13 @@
+---
+
+# Stopping nginx service
+ - name: stop nginx
+   service:
+      name: nginx
+      state: stopped
+ 
+# Ensure nginx is uninstalled successfully 
+ - name: ensure nginx is not installed
+   yum:
+     name: nginx 
+     state: absent

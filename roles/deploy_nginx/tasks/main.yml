@@ -1,0 +1,15 @@
+---
+# tasks file for roles/deploy_nginx
+
+# importing yaml for nginx installation
+ - import_tasks: install_nginx.yml
+
+# importing yaml to configure the nginx server to come up on port 8080 and to display hell world
+ - import_tasks: configure.yml
+
+# importing yaml to enable firewall on port 8080
+ - import_tasks: enable_firewall.yml
+
+# importing yaml to start the nginx server
+ - import_tasks: start_nginx.yml
+

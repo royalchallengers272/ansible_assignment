@@ -1,0 +1,17 @@
+---
+
+# Inserting page to display hello world
+ - name: Insert Index Page
+   template:
+     src: files/hello_world.html.j2
+     dest: /usr/share/nginx/html/index.html
+
+# Updating the nginx.conf to get the server up on port 8080 
+ - name: update nginx conf file
+   copy:
+     src: files/updated_nginx.conf
+     dest: /etc/nginx/nginx.conf
+     owner: root
+     group: root
+     mode: 0644
+
