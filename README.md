@@ -8,5 +8,3 @@ Submitted By:
 Arpitha Gurumurthy,
 Sheema Murugesh Babu,
 Kumuda Benakanahalli Guruprasada Murthy.
-
-check the build in jenkins
