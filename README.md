@@ -7,7 +7,4 @@ Submitted By:
  Raghava Devaraje Urs,
 Arpitha Gurumurthy,
 Sheema Murugesh Babu,
-Kumuda Benakanahalli Guruprasada Murthy.
-
-
-testing
+Kumuda Benakanahalli Guruprasada Murthy
